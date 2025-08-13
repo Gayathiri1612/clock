@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115vh;
+    background-image: url("https://t3.ftcdn.net/jpg/06/87/03/34/240_F_687033486_EZCOrmCcSLsrXzEmbccbHfxkOcFJzesK.jpg");
+    background-size:cover ;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+}
+#card{
+    border: 2px solid rgb(204, 36, 204);
+    clip-path:circle(40%);
+    padding: 80px 110px;
+    background-color: rgb(230, 240, 175);
+    height:100px;
+    width: 100px;
+    zoom: 1;
+    text-align: center;
+    color:blueviolet;
+    font-size: 20px;
+  }
+  #card:hover{
+      zoom:2;
+      color:aqua;
+      color: aquamarine;
+}
